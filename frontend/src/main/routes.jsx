@@ -2,6 +2,7 @@ import React from 'react'
 import { Router, Route, Redirect, hashHistory } from 'react-router'
 
 import Dashboard from '../dashboard/dashboard'
+// import Dashboard from '../dashboardSemRedux/dashboardSemRedux'
 import BillingCycle from '../billingCycle/billingCycle'
 
 export default props => (
