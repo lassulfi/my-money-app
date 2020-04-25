@@ -2,7 +2,7 @@ import { toastr } from 'react-redux-toastr'
 import axios from 'axios'
 import consts from '../consts'
 
-function submit(valur, url) {
+function submit(values, url) {
     return dispatch => {
         axios.post(url, values)
             .then(resp => {
